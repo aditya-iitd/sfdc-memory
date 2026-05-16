@@ -70,3 +70,12 @@ confirms.
 - Not yet documented. Admin question logged to confirm whether the org has
   any standard report folders, dashboards, or KPIs it expects agents to
   respect.
+
+
+## Reports / dashboards landscape
+
+- 30 reports exist; all are packaged scaffolding (Einstein Bot, Enablement
+  Dashboard, Flow Orchestration). No org-authored reports.
+- 2 dashboards exist; both are packaged `Enablement Dashboard` copies.
+- There is no business KPI reporting surface today. Admin question logged in
+  `memory/open-questions.md`.

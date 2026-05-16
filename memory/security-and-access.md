@@ -118,3 +118,32 @@ Permission set ASSIGNMENTS were not enumerated yet (next discovery cycle).
 - Profile-level CRUD/FLS, sharing rules, role hierarchy parents, and
   permission set assignments were not yet inspected. Treat security
   assertions as preliminary until a deeper pass is run.
+
+
+## Reports and dashboards
+
+- 30 `Report` rows. All observed reports are packaged scaffolding (Einstein
+  Bot Reports, Enablement Dashboard Reports, Flow Orchestration runtime
+  reports). No org-authored reports owned by humans were detected. Owners of
+  packaged reports include shared folder Ids (`00lg...`) and the Organization
+  itself (`00Dg5000003FriEEAS`). The 6 reports owned by the Organization are
+  Flow Orchestration sample reports
+  (`flow_screen_prebuilt_report`,
+  `flow_orchestration_run_ootb_report_two_four_eight`, etc.).
+- 2 `Dashboard` rows, both titled `Enablement Dashboard`. Packaged scaffolding.
+- No public report or dashboard folder was created by the org. Treat report /
+  dashboard surfaces as empty for business reporting purposes until the admin
+  confirms or creates a real folder.
+
+## Custom permission set assignments (notable)
+
+Filtered to likely human / business uses; full assignment list is in
+Salesforce.
+
+- `John Smith` -> `API_Access` (the only user with this set).
+- `Sarah Chen` -> `Forecast_Editor` (the only user with this set).
+- `OrgFarm EPIC` -> `Developer_Edition` and `Experience_Profile_Manager`.
+- `Platform Integration User` -> `sfdc_scrt2`,
+  `sfdc_nc_constraints_engine_deploy` (platform service assignments).
+- `Shubham Goel` has no notable custom permission-set assignments observed in
+  this pass; relies on the `System Administrator` profile.

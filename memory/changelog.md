@@ -27,3 +27,15 @@
   API queries for `ValidationRule`, `ApexClass`, `ApexTrigger`,
   `CustomObject`, `InstalledSubscriberPackage`, `PermissionSet`,
   `UserRole`, `Profile`.
+
+
+## 2026-05-16 (cycle 2)
+
+- Added: report/dashboard inventory note (all packaged scaffolding, no
+  org-authored business reports).
+- Added: custom permission set assignments for John Smith (`API_Access`),
+  Sarah Chen (`Forecast_Editor`), and OrgFarm EPIC (`Developer_Edition`,
+  `Experience_Profile_Manager`).
+- Evidence: SOQL on `Report`, `Dashboard`, `Folder`,
+  `PermissionSetAssignment` filtered to custom permission sets.
+- No admin answers received yet on the 12 open questions.
