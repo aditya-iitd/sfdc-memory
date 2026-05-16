@@ -1,18 +1,29 @@
 # Changelog
 
-Status: blank.
+## 2026-05-16
 
-Record concise memory updates.
-
-Use this format:
-
-```text
-## YYYY-MM-DD
-
-- Added:
-- Changed:
-- Resolved questions:
-- Evidence:
-```
-
-Do not duplicate full content from other memory files. Summarize what changed.
+- Added: initial org discovery from read-only `sf` CLI inspection of the
+  `orgfarm-dev` org (`Walrus Holdings Pte. ltd.`, `00Dg5000003FriEEAS`).
+- Added: data-model notes for Account / Opportunity / Case including the
+  custom fields actually in use, plus a Deprecated Fields section covering
+  `ARR_Legacy__c`, Developer Edition sample fields on Account and
+  Opportunity, and picklist mismatches on `Opportunity.StageName`,
+  `Opportunity.Type`, and `Account.Type`.
+- Added: catalog of validation rules and noted the broken
+  `test_field_must_be_gt_100` rule and the `Account_Type_Forward_Only`
+  rule that references a missing `Churned` picklist value.
+- Added: roster of active users, profiles, custom permission sets, and
+  the unexplained `Slackbot` integration user.
+- Added: business-process inferences (sales stages in use, ARR
+  conventions, discount cap, account tiering, case routing observations).
+- Added: agent-derived default policies pending admin confirmation.
+- Added: 12 open questions in `memory/open-questions.md` covering org
+  purpose, the second authenticated org, Slackbot integration, picklist
+  mismatches, deprecated fields, validation-rule cleanup, automation
+  visibility, case routing, and reporting conventions.
+- Evidence: `sf org list`, `sf org display`, `sf org limits list`,
+  Organization SOQL, `sf data query` aggregates on Account / Opportunity /
+  Case / User, `sf sobject describe` for Account and Opportunity, Tooling
+  API queries for `ValidationRule`, `ApexClass`, `ApexTrigger`,
+  `CustomObject`, `InstalledSubscriberPackage`, `PermissionSet`,
+  `UserRole`, `Profile`.
