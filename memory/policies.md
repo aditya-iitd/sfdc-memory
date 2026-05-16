@@ -102,12 +102,8 @@ rules, fields, and picklist values in Salesforce.
 
 ## Data And Security Signals
 
-- Case data includes two critical security-themed cases:
-  `Security review - API token rotation needed` and
-  `Security incident - unauthorized access attempt`.
-- Agent behavior: treat security-related cases and API/token topics as sensitive;
-  do not expose secrets, and prefer summaries over copying sensitive details.
-- Confidence: medium; verify current case status before referencing.
+- 2 open security cases (API token rotation, unauthorized access attempt).
+- Treat security/API/token topics as sensitive; never expose secrets.
 
 ## Change Management Signals
 
