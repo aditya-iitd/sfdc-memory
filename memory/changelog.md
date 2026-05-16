@@ -39,3 +39,18 @@
 - Evidence: SOQL on `Report`, `Dashboard`, `Folder`,
   `PermissionSetAssignment` filtered to custom permission sets.
 - No admin answers received yet on the 12 open questions.
+
+
+## 2026-05-16 (cycle 3)
+
+- Added: activity pattern note. All Account / Opportunity / Case rows were
+  created and last modified by Shubham Goel in the same ~10-second window on
+  2026-05-16 11:33 UTC. Strongly suggests a demo data load, not live CRM
+  activity.
+- Added: surfaced previously-missed Case 00001121 - Security review - API
+  token rotation needed, owned by Shubham Goel.
+- Confirmed: no custom settings (IsCustomSetting = true returned 0 rows).
+  Custom tabs all belong to the devedapp package; no org-authored tabs.
+- Evidence: SOQL on Account / Opportunity / Case with LastModifiedDate and
+  LastModifiedBy.Name; Tooling API on EntityDefinition (IsCustomSetting =
+  true) and CustomTab.

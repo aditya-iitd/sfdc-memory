@@ -163,3 +163,15 @@ touch them.
 - Risk if used: validation rule `ARR_Field_Type_Match` and reporting expect
   the short labels. Long labels will not match.
 - Confidence: medium. Admin question logged.
+
+
+## Activity pattern (cycle 3)
+
+- Every Account, Opportunity, and Case row was created AND last modified by
+  Shubham Goel within a single ~10-second window on 2026-05-16 around
+  11:33 UTC. The records have not been touched since by any other user. This
+  is consistent with a single-shot demo data load, not ongoing CRM activity.
+- One additional Case row (00001121 - Security review - API token rotation
+  needed) was found that was not listed in the earlier sample. It is owned
+  by Shubham Goel and likely paired with case 00001122 - Security incident
+  - unauthorized access attempt.
