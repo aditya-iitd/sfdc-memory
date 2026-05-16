@@ -1,0 +1,12 @@
+# Local environment and editor files
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Claude or agent runtime scratch files
+.claude/local/
+.codex/
+tmp/
+*.log
+
