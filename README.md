@@ -24,15 +24,16 @@ when a new ambiguous case appears.
 
 Read these files before planning or answering Salesforce work:
 
-1. memory/policies.md
-2. memory/org-overview.md
-3. memory/data-model.md
-4. memory/security-and-access.md
-5. memory/automation.md
-6. memory/business-processes.md
-7. memory/integrations.md
-8. memory/open-questions.md
-9. memory/changelog.md
+1. memory/starting-context.md
+2. memory/policies.md
+3. memory/org-overview.md
+4. memory/data-model.md
+5. memory/security-and-access.md
+6. memory/automation.md
+7. memory/business-processes.md
+8. memory/integrations.md
+9. memory/open-questions.md
+10. memory/changelog.md
 
 ## Rules
 
