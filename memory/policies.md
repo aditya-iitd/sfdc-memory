@@ -111,9 +111,7 @@ rules, fields, and picklist values in Salesforce.
 
 ## Change Management Signals
 
-- Setup Audit Trail shows repeated test metadata creation/removal on Account
-  during April 2026, including fields named like `sfdc_agent_test_*`,
-  `AgtTest*`, and temporary validation rules.
-- Agent behavior: treat these as likely test artifacts unless a current business
-  owner confirms otherwise.
+- April 2026 audit trail shows test metadata churn on Account
+  (`sfdc_agent_test_*`, `AgtTest*`, temp validation rules). Treat as test
+  artifacts unless an owner confirms.
 - Confidence: medium.
