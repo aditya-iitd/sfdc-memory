@@ -54,3 +54,19 @@
 - Evidence: SOQL on Account / Opportunity / Case with LastModifiedDate and
   LastModifiedBy.Name; Tooling API on EntityDefinition (IsCustomSetting =
   true) and CustomTab.
+
+
+## 2026-05-16 (cycle 4 - admin answers)
+
+- Resolved: all 12 open onboarding questions. Admin (Shubham Goel via
+  Slack thread) confirmed:
+  - orgfarm-dev should be treated as production for safety.
+  - The second authenticated org (00DgK00000LMHW8UAP) must be ignored.
+  - For questions 3-12, the agent was authorized to assume based on
+    read-only exploration.
+- Updated: memory/open-questions.md now records resolutions and the
+  agent-derived assumptions in detail.
+- Updated: memory/policies.md now reflects production-grade handling
+  rules, the ignore-instruction for the second org, and the inferred field
+  / case / reporting defaults.
+- Evidence: Slack thread message 1778956589.214189.
