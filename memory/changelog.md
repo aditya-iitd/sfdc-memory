@@ -70,12 +70,3 @@
   rules, the ignore-instruction for the second org, and the inferred field
   / case / reporting defaults.
 - Evidence: Slack thread message 1778956589.214189.
-
-
-## 2026-05-17
-
-- Added: naming convention in `memory/policies.md` - all new Opportunity
-  names must start with the letter "O" going forward (admin directive via
-  Slack approval thread, 2026-05-17). Pre-existing Opportunities are
-  grandfathered. Agents must surface this rule in approval plans and
-  prompt the requester to revise non-compliant names.
