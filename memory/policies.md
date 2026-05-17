@@ -51,6 +51,15 @@ admin permission to assume.
   deprecated (see memory/data-model.md). Do not include them in reports or
   recommended writes.
 
+## Naming conventions
+
+- Opportunity names going forward must start with the letter "O" (admin
+  directive, 2026-05-17). This is a forward-looking policy: pre-existing
+  Opportunities are grandfathered. Agents proposing creates or renames on
+  Opportunity must enforce a leading "O" (case-insensitive at the boundary,
+  but prefer uppercase "O"). Surface the rule in any approval plan and
+  prompt the requester to revise non-compliant names before submission.
+
 ## Secrets and sensitive data
 
 - Do not store access tokens, refresh tokens, certificates, passwords, or
